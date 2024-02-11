@@ -1,0 +1,34 @@
+ h2 {
+    text-align: center;
+    }
+
+   .container{
+    display: flex;
+height: 100vh;
+width: 70vh; 
+margin: auto;
+
+   }
+   
+  .img1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50% ;
+  }   
+  .left{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(187, 247, 227);
+  }
+  .right{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: darkgrey;
+  }
+  
